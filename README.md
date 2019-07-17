@@ -1,3 +1,11 @@
-# webscraper
+# Webscrapers
 
-Proof of concept web scraper for a proprietary system.
+Collection of various Webscrapers I've made
+
+## WebscraperPOC
+
+Webscraper proof of concept created for proprietary system
+
+## WebscraperATC
+
+Webscraper for scraping ATC codes off WHOCC.no
