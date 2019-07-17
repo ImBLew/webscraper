@@ -64,7 +64,7 @@ if __name__ == "__main__":
 #    Iterates through all ATC letter codes
     for c in LETTER_CODES:
         base_url = "https://www.whocc.no/atc_ddd_index/?code={}&showdescription=no".format(c.upper())
-        recursive_scrape(url="https://www.whocc.no/atc_ddd_index/?code=A&showdescription=no")
+        recursive_scrape(url=base_url)
     df= pd.DataFrame(collected_parse[1:], columns=collected_parse[0])
     
 #    Overrides past scrape file
